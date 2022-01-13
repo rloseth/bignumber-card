@@ -20,6 +20,7 @@ A simple card to display big numbers for sensors. It also supports severity leve
 | from | string | left | Direction from where the bar will start filling (must have min/max specified)
 | severity | list | optional | A list of severity objects. Items in list must be ascending based on 'value'
 | hideunit | boolean | optional | hide the unit of measurement if set to true. If absent, unit of measurement will be shown
+| unitsize | number | optional | Scale the unit as a product of base size.
 | noneString | string | optional | String to use for value if value == None
 | noneCardClass | string | optional | CSS class to add to card if value == None
 | noneValueClass | string | optional | CSS class to add to value if value == None
